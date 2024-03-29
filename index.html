@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <script src="https://kit.fontawesome.com/5a960473d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center"> 
+            <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+            </span>
+            <img src="images/logo.png">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class=" cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">    
+        <div class="banner">
+            <h1 class="banner-title"> Bookstore </h1>
+            <button class="banner-btn" onclick="scrollToBottom()">shop now</button>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="section-title">
+            <h2>Our books</h2>
+        </div>
+
+        <div class="products-center">
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-1.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>The Catcher in the Rye</h3>
+                <h4>9.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-2.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Leaders eat last</h3>
+                <h4>12.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-3.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Meditations</h3>
+                <h4>9.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-4.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Berserk, vol.1</h3>
+                <h4>49.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-5.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Bride</h3>
+                <h4>9.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-6.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>A Little Life</h3>
+                <h4>7.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-7.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>The Seven Year Slip</h3>
+                <h4>10.99$</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-8.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Remarkably Bright Creatures</h3>
+                <h4>6.99$</h4>
+            </article>
+
+        </div>
+    </section>
+        
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="cart-footer">
+                <h3>your total: <span class="cart-total">0</span> $</h3>
+                <button class="clear-cart banner-btn"> clear cart</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
